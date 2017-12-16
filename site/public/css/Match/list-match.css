@@ -1,0 +1,54 @@
+.list-matchs h3 {
+	text-align: center;
+	width: 100%;
+}
+.item-match-admin, .item-match-admin .d-flex{
+	width: 100%;
+}
+
+.finish-container{
+	display: none;
+}
+
+.item-match{
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(61,66,72,0.15);
+}
+
+.match.finish{
+	background-color: #f4f5f6;
+}
+.match a{
+	display: inline-block;
+	width: 100%;
+	text-decoration: none;
+	color: #222;
+}
+
+.match a:hover{
+	text-decoration: none;
+}
+
+.match a span{
+	flex:1;
+	color: #222;
+}
+
+.receive{
+	text-align: left;
+}
+
+.visitor{
+	text-align: right;
+}
+.match a span .flag_mini{
+	width: 20px;
+	margin: auto 6px;
+}
+
+
+.match .date,
+.match .score{
+	font-weight: 700;
+	text-align: center;
+}

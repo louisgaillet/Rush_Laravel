@@ -1,0 +1,151 @@
+ html, body {
+    background-color: #fff; 
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link{
+	font-weight: 900;
+	color: #5D7BF6;
+}
+
+.shadow{
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+
+.links > a {
+    color: #fff;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+        
+
+.flag_mini{
+	width: 30px;
+}
+
+.flag_big{
+	width: 50px;
+	height: 50px;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.title {
+    color: white;
+    background-color: #5D7BF6;
+    display: inline-block;
+    font-weight: 600;
+    padding: 6px;
+    letter-spacing: 0.1rem;
+    border-radius: 0 0 6px 0;
+}
+
+.block{
+	border: 2px solid #80808047;
+}
+
+.block .title{
+	transform: translateX(-15px);
+}
+.block .padding{
+	padding: 13px;
+}
+.item-player{
+	margin: 18px auto;
+}
+
+.item-player img {
+	cursor: pointer;
+	border: 2px solid transparent;
+	transition: all .5s ease;
+}
+
+.item-player.active img{
+	border: 2px solid #F6BCB5;
+}
+
+.item-player figcaption{
+	font-size: 1.3rem;
+	text-align: center;
+	height: 40px;
+}
+
+.item-player figcaption a {
+	color: #222;
+	text-decoration: none;
+}
+
+
+.column-team{
+	padding: 5rem
+}
+
+img{
+	max-width: 100%;
+}
+
+.multiselect{
+	width: 100%!important;
+}
+.multiselector:after { 
+	font-family: "FontAwesome" !important; 
+	content: "\f014"  !important;
+	padding-left: 3px  !important;
+}
+
+.starters{
+	display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.row-reverse{
+	flex-direction: row-reverse;
+}
+
+.title-1{
+	background: #5D7BF6;
+    color: white;
+    padding: 0 13px;
+    border-radius: 0 14px 0 0;
+}

@@ -1,0 +1,137 @@
+.detail-match .receive,
+.detail-match .visitor,
+.detail-match .date,
+.detail-match .score{
+	font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+}
+.and-place p{
+	margin-bottom: 0;
+}
+
+.and-place .place,
+.and-place .date{
+	text-align: center;
+	font-size: 1.2rem;
+	color: grey;
+}
+
+.detail-match .receive img {
+	margin-right: 13px;
+}
+
+.detail-match .visitor img {
+	margin-left: 13px;
+}
+
+.detail-match .header-match{
+	margin-bottom: 4rem;
+}
+
+.detail-match .titulaires{
+	border: 2px solid #80808047;
+}
+
+.titulaires{
+	padding: 0;
+}
+
+
+.titulaires .title{
+	color: white;
+    background-color: #5D7BF6;
+    display: inline-block;
+    font-weight: 600;
+    padding: 6px;
+    letter-spacing: 0.1rem;
+    border-radius: 0 0 6px 0;
+}
+
+.match .item-player{
+	margin: 7px auto;
+    border-bottom: 1px solid rgba(61,66,72,0.15);
+    padding: 5px 2rem;
+}
+
+.match .item-player:last-child{
+    border-bottom: none;
+}
+.match .item-player .picture{
+	width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 2px solid #5D7BF6;
+}
+
+.match .item-player .name{
+	line-height: 37px;
+    margin-left: 13px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    max-height: 37px;
+    overflow: hidden;
+}
+
+.match .position{
+    line-height: 38px;
+}
+
+.match .best-players .picture{
+    text-align: left;
+    padding: 0 !important;
+}
+.match .bests-players .picture img{
+    width: 69px;
+    margin: 0 auto;
+}
+
+.match .bests-players .name{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.match .bests-players .chiffre{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #5D7BF6;
+}
+
+.match .best_visitor .picture{
+    text-align: right;
+}
+
+.match .item_best_player{
+    margin: 20px auto;
+}
+
+.match .stats{
+    padding: 0 !important;
+    text-align: right;
+}
+.match .row-reverse .stats_after_match{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold
+}
+
+.classements{
+    margin-top: 4rem;
+    padding: 16px;
+}
+
+
+.stats_after_match .stats{
+    text-align: left;
+}
+
+.stats_after_match {
+    text-align: left !important;
+    margin-top: 2rem;
+}
+.stats_after_match .stats-label{
+    font-weight: bold;
+    color:  #5D7BF6
+}
